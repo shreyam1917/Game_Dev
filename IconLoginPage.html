@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="Gameplay_L1.png">
+</head> 
+<style>
+    body {
+        background-color: blue;
+
+        background-image: linear-gradient(to bottom, blue 10%, transparent 10%),
+							  linear-gradient(to bottom, blue 20%, transparent 20%);
+			background-size: 100% 20px;
+			background-repeat: repeat-x;
+    }
+    /* #bottom-image {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 50%;
+			height: 400px;
+			background-image: url('Gameplay_L1.png');
+			background-size: cover;
+			background-position: center center;
+		} */
+
+</style>
+<body>
+	<div class="container">
+		<h1>Login to view Shreyam's work</h1>
+		<form>
+			<label for="Firstname">Firstname:</label>
+			<input type="text" id="Firstname" name="Firstname" required>
+			<label for="Lastname">Lastname:</label>
+			<input type="text" id="Lastname" name="Lastname" required>
+			<label for="Email">Email:</label>
+			<input type="email" id="Email" name="Email" required>
+			<!-- <label>Gender:</label>
+			<input type="radio" id="Gender" name="Gender" value="Male"/>Male
+			<input type="radio" id="Gender" name="Gender" value="Female"/>Female<br> -->
+			<label for="Gender">Gender:</label>
+			<label for="male">Male</label><input type="radio" id="male" name="Gender" value="Male">
+			
+			<button type="submit">Submit</button>
+		</form>
+        <div id="bottom-image"></div>
+</body>
+</html>
